@@ -1,0 +1,54 @@
+body {
+    background-color: #A9A9A9;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a:link {
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.current {
+    background-color: #D3D3D3;
+}
+
+ul li:last-child {
+    text-decoration: underline;
+}
+
+article p {
+    font-size: 13pt;
+}
+
+section article footer p {
+    text-align: left;
+    font-size: 10pt;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+article header {
+    text-align: left;
+}
+
+h1,
+ul li a:link,
+ul li:last-child {
+    color: #FFFFFF;
+}
