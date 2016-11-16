@@ -1,70 +1,96 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Ticket</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="css/stylesTicket.css" rel="stylesheet" />
+    <title>Countries</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel=stylesheet type="text/css" href="../file.css" />
 </head>
 <body>
-    <h1>Ticket ID: 409788</h1>
-    <table>
-        <tr>
-            <td class="label" rowspan="2">
-                Name:
-            </td>
-            <td>
-                <div class="circle"></div>
-                <a href="#">
-                    Parker Seidel
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="red">
-                    No Active Support
-                </span>
-            </td>
-        </tr>
-        <tr>
-            <td class="label">
-                Email:
-            </td>
-            <td>
-                <a href="mailto:seidel@aptmail.com">seidel@aptmail.com</a>
-            </td>
-        </tr>
-        <tr>
-            <td class="label">
-                Response Time:
-            </td>
-            <td>
-                72hours, 60hours left
-            </td>
-        </tr>
-        <tr>
-            <td class="label" rowspan="2">
-                Last Action:
-            </td>
-            <td>
-                Never been locked.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="#">Link to public post</a>
-            </td>
-        </tr>
-        <tr>
-            <td class="label">
-                Status:
-            </td>
-            <td>
-                <span class="orange">
-                    Not answered
-                </span>
-            </td>
-        </tr>
-    </table>
+    <form name="countries" method="get" action="#">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Contact Name
+                    </th>
+                    <th>
+                        City
+                    </th>
+                    <th>
+                        Country
+                    </th>
+                    <th>
+                        Is Promoted
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                    <td>
+                        Maria Anders
+                    </td>
+                    <td>
+                        Berlin
+                    </td>
+                    <td>
+                        <img class="flags" src="http://2.bp.blogspot.com/-AbIEXqArwP4/Tqft1RvyRsI/AAAAAAAAAfc/KxNeq7wYdL8/s1600/Erfurter+Union+Flag+-+Germany+-+Peter+Crawford.
+                        png" width="24" height="18" alt="Germany flag" />
+                        Germany
+                    </td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" name="isPromotedMaria" class="isPromoted" />
+                    </td>
+                </tr>
+                <tr class="even">
+                    <td>
+                        Ana Trujillo
+                    </td>
+                    <td>
+                        México D.F.
+                    </td>
+                    <td>
+                        <img class="flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/2000px-Flag_of_Mexico.svg.png" width="24" height="18" alt="Mexican flag" />
+                        Mexico
+                    </td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" name="isPromotedAna" class="isPromoted" />
+                    </td>
+                </tr>
+                <tr class="odd">
+                    <td>
+                        Antonio Moreno
+                    </td>
+                    <td>
+                        México D.F.
+                    </td>
+                    <td>
+                        <img class="flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/2000px-Flag_of_Mexico.svg.png" width="24" height="18" alt="Mexican flag" />
+                        Mexico
+                    </td>
+                    <td>
+                        <input type="checkbox" checked="checked" disabled="disabled" name="isPromotedAntonio" class="isPromoted" />
+                    </td>
+                </tr>
+                <tr class="even">
+                    <td>
+                        Thomas Hardy
+                    </td>
+                    <td>
+                        London
+                    </td>
+                    <td>
+                        <img class="flags" src="http://www.flaginstitute.org/wp/wp-content/uploads/2012/10/UK-Union-Flag.png" width="24" height="18" alt="United Kingdom flag" />
+                        UK
+                    </td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" name="isPromotedThomas" class="isPromoted" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
 </body>
-</html>	
+</html>
+
+</body>
+</html>
